@@ -1,0 +1,222 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://forestry.io/docs/images/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css">
+  
+  
+  <link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+  
+  <link rel="stylesheet" href="https://forestry.io/docs//css/main.min.css">
+  <link rel="stylesheet" href="https://yandex.st/highlightjs/8.0/styles/github.min.css">
+  <script src="https://use.fonticons.com/b6f38602.js"></script>
+  <script src="https://use.typekit.net/fny8qni.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <h1 class="logo"><a href="/">Forestry.io</a></h1>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="https://forestry.io/docs/">Docs</a></li>
+        <li><a href="https://forestry.io/login">Login</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<nav class="breadcrumbs">
+	<div class="container">
+		<ul>
+			<li><a href="https://forestry.io/docs/">Docs</a> <span class="icon icon-chevron-right"></span></li>
+			
+			
+			<li><a href="https://forestry.io/docs/categories/hosting/">Hosting</a> <span class="icon icon-chevron-right"></span></li>
+		</ul>
+		<div class="search-box search-box-sm">
+			<form action="">
+				<input type="text" class="search">
+				<span class="icon icon-search"></span>
+			</form>
+		</div>
+	</div>
+</nav>
+
+<div class="container pure-g">
+	<nav class="side-nav pure-u-1 pure-u-md-1-4">
+	<h3>Getting Started</h3>
+	<ul>
+	
+		<li><a href="/docs/getting-started/forestry-features/">
+		
+		    Forestry Features
+		
+		</a></li>
+	
+		<li><a href="">
+		
+		    Support and help
+		
+		</a></li>
+	
+	</ul>
+	<h3>Setting up a Site</h3>
+	<ul>
+	
+		<li><a href="/docs/setting-up-a-site/importing-a-site-from-github/">
+		
+		    Importing a site fro...
+		
+		</a></li>
+	
+		<li><a href="">
+		
+		    Setting up a site wi...
+		
+		</a></li>
+	
+	</ul>
+	<h3>Deployment and Hosting</h3>
+	<ul>
+	
+		<li><a href="/docs/deployment-and-hosting/hosting-with-github-pages/">
+		
+		    Hosting with Github ...
+		
+		</a></li>
+	
+		<li><a href="">
+		
+		    New page testing men...
+		
+		</a></li>
+	
+	</ul>
+	<h3>Manage Your Team</h3>
+	<ul>
+	
+		<li><a href="">
+		
+		    Adding Team Members
+		
+		</a></li>
+	
+	</ul>
+	<h3>Editing Content</h3>
+	<ul>
+	
+	</ul>
+	<h3>Other</h3>
+	<ul>
+	
+	</ul>
+	<h3>FAQ's</h3>
+	<ul>
+		<li><a href="https://forestry.io/docs//tags/faq/">FAQ's</a></li>
+	</ul>
+</nav>
+
+	<div class="pure-u-1 pure-u-md-3-4">
+		<div class="content">
+		
+			<div class="expanding-faq">
+				<h2><a href="https://forestry.io/docs/deployment-and-hosting/hosting-with-github-pages/">Hosting with Github pages<span class="icon icon-chevron-down"></span></a></h2>
+				<div class="answer"><p>To setup hosting with Github Pages you first need to created a branch on in your repository called &ldquo;github-paged&rdquo;. You can do this very easily from the github interface. Simlply click the dropdown labled branch, type &ldquo;github-pages&rdquo; in the text field, and click enter. This will create the branch for you.</p>
+
+<p><img src="/docs/assets/images/Screen Shot 2016-06-09 at 2.49.31 PM.png" alt="" /></p>
+
+<p>Now back over Forestry, after completing the initilal setup of importing you site you will be presented with a dialog to setup the hosting. To host with github-pages choose &ldquo;github-pages&rdquo; from the drop down, the select the repository and branch (will almost always be &ldquo;github-pages&rdquo;).</p>
+
+<p><img src="/docs/assets/images/Screen Shot 2016-06-09 at 2.57.12 PM.png" alt="" /></p>
+
+<p><img src="/docs/assets/images/Screen Shot 2016-06-09 at 2.59.08 PM.png" alt="" /></p>
+
+<p>Now whenever you publish a change, forestry will automatically update your live site, so your users will always see the latest version.</p>
+
+<p>Since you&rsquo;re already using git for hosting, why not also host your code there? If you&rsquo;re hosting with github-pages, also using github for your version control is a great workflow. We have a doc you can checkout <a href="../../setting-up-a-site/importing-a-site-from-github/">here</a>.</p>
+</div>
+			</div>
+	  
+			<div class="expanding-faq">
+				<h2><a href="https://forestry.io/docs/deployment-and-hosting/s3-permissions-for-website/">S3 Permissions for Website<span class="icon icon-chevron-down"></span></a></h2>
+				<div class="answer"><p>More info here: <a href="http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteAccessPermissionsReqd.html">http://docs.aws.amazon.com/AmazonS3&hellip;</a></p>
+
+<pre><code>{
+  &quot;Version&quot;:&quot;2012-10-17&quot;,
+  &quot;Statement&quot;:[{
+	&quot;Sid&quot;:&quot;PublicReadGetObject&quot;,
+        &quot;Effect&quot;:&quot;Allow&quot;,
+	  &quot;Principal&quot;: &quot;*&quot;,
+      &quot;Action&quot;:[&quot;s3:GetObject&quot;],
+      &quot;Resource&quot;:[&quot;arn:aws:s3:::example-bucket/*&quot;
+      ]
+    }
+  ]
+}
+</code></pre>
+
+<p>Be sure to replace <strong>example-bucket</strong> with your bucket name :)</p>
+</div>
+			</div>
+	  
+			<div class="expanding-faq">
+				<h2><a href="https://forestry.io/docs/doc/aws-generate-keys/">Generate AWS Keys<span class="icon icon-chevron-down"></span></a></h2>
+				<div class="answer"><p>You'll need your region, bucket name, AWS&nbsp;key and Secret in order to&nbsp;deploy your site to S3.&nbsp;</p>
+<figure><img src="/docs/images/AWS-setup.png"></figure>
+
+<h2>Setup Policy</h2>
+
+
+<ul><li>Log into your <a href="https://console.aws.amazon.com">AWS&nbsp;Console</a></li><li>Go to&nbsp;<em>Identity and Access Management</em></li><li>Policies &gt; Get started &gt; Create policies &gt; policy generator</li><li>Add the following fields:</li></ul>
+
+
+
+
+
+<p> AWS Service: Amazon S3<br>Action:&nbsp;All actions selected (for simplicity)<br>ARN:&nbsp;arn:aws:s3:::your-domain.com/*<br></p>
+
+
+
+
+
+<ul><li>Click <em>Add Statement</em></li><li><em></em>Now do&nbsp;the same thing without the /* at the end of your domain (in the ARN&nbsp;field)</li><li>Click <em>Next</em> and give the policy a new name that makes sense (forestry-policy).&nbsp;&nbsp;Then click&nbsp;<em>Create Policy</em></li></ul>
+
+
+
+
+
+<h2> Attach Policy to a User</h2>
+
+
+
+
+
+<p>Go back to the <em>Identity and Access Management</em> dashboard and go to:</p>
+
+
+
+
+
+<ul><li>Users &gt; create &gt; name (name = forestry)</li><li>Click show credentials&nbsp;(be sure to copy or download these...they only appear once)</li><li>Close window then click on the row of the user you just created</li><li>Got to <em>Permissions</em> &gt; <em>Attach policy</em> then search for the policy you&nbsp;just created</li><li>Save and your done!</li></ul>
+</div>
+			</div>
+	  
+		</div>
+	</div>
+</div>
+<footer class="site-footer">
+<p>forestry.io, the CMS for static sites</p>
+<p><a href="#">Terms of service</a> &bull; <a href="#">Privacy policy</a></p>
+</footer>
+
+<script src="https://forestry.io/docs//js/main.min.js"></script>
+</body>
+</html>

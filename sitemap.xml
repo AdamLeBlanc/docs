@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://forestry.io/docs/</loc>
+    <lastmod>2016-06-14T17:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/faq/github-organization-access/</loc>
+    <lastmod>2016-06-14T17:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/setting-up-a-site/setting-up-a-site-without-hosting/</loc>
+    <lastmod>2016-06-10T15:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/managing-your-team/adding-team-members/</loc>
+    <lastmod>2016-06-09T19:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/getting-started/support-and-help/</loc>
+    <lastmod>2016-06-09T19:49:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/getting-started/forestry-features/</loc>
+    <lastmod>2016-06-09T18:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/deployment-and-hosting/hosting-with-github-pages/</loc>
+    <lastmod>2016-06-09T17:35:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/deployment-and-hosting/hosting-on-amazon-s3/</loc>
+    <lastmod>2016-06-09T17:33:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/setting-up-a-site/importing-a-site-from-github/</loc>
+    <lastmod>2016-06-09T17:21:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/doc/setting-up-a-host/</loc>
+    <lastmod>2016-06-09T17:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/setting-up-a-site/cats/</loc>
+    <lastmod>2016-06-09T13:59:41-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/other/test/</loc>
+    <lastmod>2016-06-09T13:47:47-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/editing-content/test/</loc>
+    <lastmod>2016-06-09T13:45:52-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/manage-a-team/test/</loc>
+    <lastmod>2016-06-09T13:45:52-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/deployment-and-hosting/test/</loc>
+    <lastmod>2016-06-09T13:43:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/getting-started/how-to-write-a-gemfile/</loc>
+    <lastmod>2016-06-09T13:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/faq/what-versions-of-jekyll-and-plugins-does-forestry-support/</loc>
+    <lastmod>2016-06-09T12:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/deployment-and-hosting/s3-permissions-for-website/</loc>
+    <lastmod>2016-05-24T13:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/doc/reuploading/</loc>
+    <lastmod>2016-05-11T12:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/faq/aws-region/</loc>
+    <lastmod>2016-04-29T21:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/doc/aws-generate-keys/</loc>
+    <lastmod>2016-04-28T22:47:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/setting-up-a-site/Jekyll-Defaults/</loc>
+    <lastmod>2016-04-25T14:51:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://forestry.io/docs/doc/GitHub-and-forestry-io/</loc>
+    <lastmod>2016-04-25T13:14:00+00:00</lastmod>
+  </url>
+  
+</urlset>

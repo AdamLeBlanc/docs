@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jekyll on The Forestry Field Guide</title>
+    <link>https://forestry.io/docs/categories/jekyll/</link>
+    <description>Recent content in Jekyll on The Forestry Field Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jun 2016 13:40:00 +0000</lastBuildDate>
+    <atom:link href="https://forestry.io/docs/categories/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to write a Gemfile</title>
+      <link>https://forestry.io/docs/getting-started/how-to-write-a-gemfile/</link>
+      <pubDate>Thu, 09 Jun 2016 13:40:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/getting-started/how-to-write-a-gemfile/</guid>
+      <description>&lt;p&gt;Here is an example of a basic Gemfile.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;
+source &#39;https://rubygems.org&#39;
+ruby &#34;2.2.4&#34;
+gem &#39;jekyll&#39;, &#39;1.5.1 &#39;
+gem &#39;jekyll-coffeescript&#39;
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;Every gemfile must have a source, in this case &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;source &#39;https://rubygems.org&#39;&lt;/code&gt;&lt;/pre&gt; . This is where bundle (the program that installs all the gems in your Gemfile) will download the gems. Generally &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;&#39;https://rubygems.org&#39;&lt;/code&gt;&lt;/pre&gt; is the only source you will need, since it is the official source for ruby gems, however Forestry will support 3rd party sources as well.
+&lt;p&gt;
+    You can specify the version of ruby to use for your build as well. To do this simply add &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby &#34;2.2.4&#34;&lt;/code&gt;&lt;/pre&gt; to your Gemfile and change &#34;2.2.4&#34; to the version of Ruby you want to use. Forestry will build sites for ruby version 2.1.x and above, where x is the most recent bug fix for that version. You can find a complete list of ruby versions &lt;a href=&#34;https://www.ruby-lang.org/en/downloads/&#34;&gt;here&lt;/a&gt;. Forestry will support the versions listed under &#34;Stable releases&#34;. If you don&#39;t specify a ruby version in your Gemfile, forestry will use the same minor version (the first two numbers in the version) as GitHub Pages, but we will use the latestest patch (the last number in the version). 
+
+
+&lt;p&gt;
+    After this, you can start listing your gems. Optionally you can specify the version of the gem as the second argument to &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;gem&lt;/code&gt;&lt;/pre&gt;. Any dpendencies the gems have listed will be installed as well.
+</description>
+    </item>
+    
+  </channel>
+</rss>

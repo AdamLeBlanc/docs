@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Editing-content on The Forestry Field Guide</title>
+    <link>https://forestry.io/docs/editing-content/</link>
+    <description>Recent content in Editing-content on The Forestry Field Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jun 2016 13:45:52 -0300</lastBuildDate>
+    <atom:link href="https://forestry.io/docs/editing-content/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>test</title>
+      <link>https://forestry.io/docs/editing-content/test/</link>
+      <pubDate>Thu, 09 Jun 2016 13:45:52 -0300</pubDate>
+      
+      <guid>https://forestry.io/docs/editing-content/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

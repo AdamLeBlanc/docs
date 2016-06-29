@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting-started on The Forestry Field Guide</title>
+    <link>https://forestry.io/docs/getting-started/</link>
+    <description>Recent content in Getting-started on The Forestry Field Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jun 2016 19:49:00 +0000</lastBuildDate>
+    <atom:link href="https://forestry.io/docs/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Support and help</title>
+      <link>https://forestry.io/docs/getting-started/support-and-help/</link>
+      <pubDate>Thu, 09 Jun 2016 19:49:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/getting-started/support-and-help/</guid>
+      <description>&lt;p&gt;Need help? Email us at &lt;a href=&#34;mailto:support@forestry.io&#34;&gt;support@forestry.io&lt;/a&gt; or chat with us through intercom (click the chat icon when you&amp;rsquo;re logged in).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/forestry-support-3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Forestry Features</title>
+      <link>https://forestry.io/docs/getting-started/forestry-features/</link>
+      <pubDate>Thu, 09 Jun 2016 18:08:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/getting-started/forestry-features/</guid>
+      <description>
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;a-gui-for-non-devs&#34;&gt;A GUI for non-devs&lt;/h2&gt;
+
+&lt;p&gt;Saving changes from your Forestry CMS will:  * Commit changes to a repo (optional) * Compile &amp;amp; deploy to your host * Forestry.io CMS Git Support&lt;/p&gt;
+
+&lt;h2 id=&#34;continue-to-use-git&#34;&gt;Continue to use Git&lt;/h2&gt;
+
+&lt;p&gt;If you use GitHub or Bitbucket, Forestry.io will watch your repo for changes and pull them in. So you can push code, while your editors are using the CMS.&lt;/p&gt;
+
+&lt;h2 id=&#34;deploy-anywhere&#34;&gt;Deploy anywhere&lt;/h2&gt;
+
+&lt;p&gt;Forestry is host-agnostic. Everytime an update is made via your CMS, Forestry will compile your site and deploy it to your host (S3, GitHub Pages, FTP, etc).&lt;/p&gt;
+
+&lt;h2 id=&#34;markdown-html-and-wysiwyg&#34;&gt;Markdown, HTML and WYSIWYG&lt;/h2&gt;
+
+&lt;p&gt;Editors can switch between Markdown, HTML and WYSIWYG editing&lt;/p&gt;
+
+&lt;h2 id=&#34;zero-setup-time&#34;&gt;Zero setup time&lt;/h2&gt;
+
+&lt;p&gt;No configuration needed. Just upload your site and Forestry will automatically build your CMS in seconds.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-hosted-cms&#34;&gt;A hosted CMS&lt;/h2&gt;
+
+&lt;p&gt;Forestry is a hosted CMS. No need to install or maintain any bloated software.&lt;/p&gt;
+
+&lt;h2 id=&#34;don-t-lock-to-a-cms&#34;&gt;Don&amp;rsquo;t lock to a CMS&lt;/h2&gt;
+
+&lt;p&gt;No configuration and you&amp;rsquo;re not locked into hosting. Forestry is a GUI that doesn&amp;rsquo;t interfere with your site.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to write a Gemfile</title>
+      <link>https://forestry.io/docs/getting-started/how-to-write-a-gemfile/</link>
+      <pubDate>Thu, 09 Jun 2016 13:40:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/getting-started/how-to-write-a-gemfile/</guid>
+      <description>&lt;p&gt;Here is an example of a basic Gemfile.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;
+source &#39;https://rubygems.org&#39;
+ruby &#34;2.2.4&#34;
+gem &#39;jekyll&#39;, &#39;1.5.1 &#39;
+gem &#39;jekyll-coffeescript&#39;
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;Every gemfile must have a source, in this case &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;source &#39;https://rubygems.org&#39;&lt;/code&gt;&lt;/pre&gt; . This is where bundle (the program that installs all the gems in your Gemfile) will download the gems. Generally &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;&#39;https://rubygems.org&#39;&lt;/code&gt;&lt;/pre&gt; is the only source you will need, since it is the official source for ruby gems, however Forestry will support 3rd party sources as well.
+&lt;p&gt;
+    You can specify the version of ruby to use for your build as well. To do this simply add &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby &#34;2.2.4&#34;&lt;/code&gt;&lt;/pre&gt; to your Gemfile and change &#34;2.2.4&#34; to the version of Ruby you want to use. Forestry will build sites for ruby version 2.1.x and above, where x is the most recent bug fix for that version. You can find a complete list of ruby versions &lt;a href=&#34;https://www.ruby-lang.org/en/downloads/&#34;&gt;here&lt;/a&gt;. Forestry will support the versions listed under &#34;Stable releases&#34;. If you don&#39;t specify a ruby version in your Gemfile, forestry will use the same minor version (the first two numbers in the version) as GitHub Pages, but we will use the latestest patch (the last number in the version). 
+
+
+&lt;p&gt;
+    After this, you can start listing your gems. Optionally you can specify the version of the gem as the second argument to &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;gem&lt;/code&gt;&lt;/pre&gt;. Any dpendencies the gems have listed will be installed as well.
+</description>
+    </item>
+    
+  </channel>
+</rss>

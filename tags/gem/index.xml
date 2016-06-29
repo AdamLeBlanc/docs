@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gem on The Forestry Field Guide</title>
+    <link>https://forestry.io/docs/tags/gem/</link>
+    <description>Recent content in Gem on The Forestry Field Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jun 2016 13:40:00 +0000</lastBuildDate>
+    <atom:link href="https://forestry.io/docs/tags/gem/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to write a Gemfile</title>
+      <link>https://forestry.io/docs/getting-started/how-to-write-a-gemfile/</link>
+      <pubDate>Thu, 09 Jun 2016 13:40:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/getting-started/how-to-write-a-gemfile/</guid>
+      <description>&lt;p&gt;Here is an example of a basic Gemfile.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;
+source &#39;https://rubygems.org&#39;
+ruby &#34;2.2.4&#34;
+gem &#39;jekyll&#39;, &#39;1.5.1 &#39;
+gem &#39;jekyll-coffeescript&#39;
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;Every gemfile must have a source, in this case &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;source &#39;https://rubygems.org&#39;&lt;/code&gt;&lt;/pre&gt; . This is where bundle (the program that installs all the gems in your Gemfile) will download the gems. Generally &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;&#39;https://rubygems.org&#39;&lt;/code&gt;&lt;/pre&gt; is the only source you will need, since it is the official source for ruby gems, however Forestry will support 3rd party sources as well.
+&lt;p&gt;
+    You can specify the version of ruby to use for your build as well. To do this simply add &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby &#34;2.2.4&#34;&lt;/code&gt;&lt;/pre&gt; to your Gemfile and change &#34;2.2.4&#34; to the version of Ruby you want to use. Forestry will build sites for ruby version 2.1.x and above, where x is the most recent bug fix for that version. You can find a complete list of ruby versions &lt;a href=&#34;https://www.ruby-lang.org/en/downloads/&#34;&gt;here&lt;/a&gt;. Forestry will support the versions listed under &#34;Stable releases&#34;. If you don&#39;t specify a ruby version in your Gemfile, forestry will use the same minor version (the first two numbers in the version) as GitHub Pages, but we will use the latestest patch (the last number in the version). 
+
+
+&lt;p&gt;
+    After this, you can start listing your gems. Optionally you can specify the version of the gem as the second argument to &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;gem&lt;/code&gt;&lt;/pre&gt;. Any dpendencies the gems have listed will be installed as well.
+</description>
+    </item>
+    
+    <item>
+      <title>What versions of Jekyll and plugins does Forestry support?</title>
+      <link>https://forestry.io/docs/faq/what-versions-of-jekyll-and-plugins-does-forestry-support/</link>
+      <pubDate>Thu, 09 Jun 2016 12:45:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/faq/what-versions-of-jekyll-and-plugins-does-forestry-support/</guid>
+      <description>&lt;p&gt;These are the ruby gems that Forestry will bundle with your build by default, without the need for a Gemfile. Forestry also let&#39;s you specify different versions of gems by including a Gemfile with your site.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;activesupport (4.2.6)&lt;/li&gt;&lt;li&gt;addressable (2.4.0)&lt;/li&gt;&lt;li&gt;bigdecimal (default: 1.2.4)&lt;/li&gt;&lt;li&gt;bundler (1.12.5)&lt;/li&gt;&lt;li&gt;coffee-script (2.4.1)&lt;/li&gt;&lt;li&gt;coffee-script-source (1.10.0)&lt;/li&gt;&lt;li&gt;colorator (0.1)&lt;/li&gt;&lt;li&gt;ethon (0.9.0)&lt;/li&gt;&lt;li&gt;execjs (2.7.0)&lt;/li&gt;&lt;li&gt;faraday (0.9.2)&lt;/li&gt;&lt;li&gt;ffi (1.9.10)&lt;/li&gt;&lt;li&gt;gemoji (2.1.0)&lt;/li&gt;&lt;li&gt;github-pages (82)&lt;/li&gt;&lt;li&gt;github-pages-health-check (1.1.2, 1.1.0)&lt;/li&gt;&lt;li&gt;html-pipeline (2.4.1)&lt;/li&gt;&lt;li&gt;i18n (0.7.0)&lt;/li&gt;&lt;li&gt;io-console (default: 0.4.3)&lt;/li&gt;&lt;li&gt;jekyll (3.1.6)&lt;/li&gt;&lt;li&gt;jekyll-coffeescript (1.0.1)&lt;/li&gt;&lt;li&gt;jekyll-feed (0.5.1)&lt;/li&gt;&lt;li&gt;jekyll-gist (1.4.0)&lt;/li&gt;&lt;li&gt;jekyll-github-metadata (2.0.0)&lt;/li&gt;&lt;li&gt;jekyll-mentions (1.1.2)&lt;/li&gt;&lt;li&gt;jekyll-paginate (1.1.0)&lt;/li&gt;&lt;li&gt;jekyll-redirect-from (0.10.0)&lt;/li&gt;&lt;li&gt;jekyll-sass-converter (1.4.0, 1.3.0)&lt;/li&gt;&lt;li&gt;jekyll-seo-tag (2.0.0)&lt;/li&gt;&lt;li&gt;jekyll-sitemap (0.10.0)&lt;/li&gt;&lt;li&gt;jekyll-textile-converter (0.1.0)&lt;/li&gt;&lt;li&gt;jekyll-watch (1.4.0)&lt;/li&gt;&lt;li&gt;jemoji (0.6.2)&lt;/li&gt;&lt;li&gt;json (default: 1.8.1)&lt;/li&gt;&lt;li&gt;kramdown (1.11.1, 1.10.0)&lt;/li&gt;&lt;li&gt;liquid (3.0.6)&lt;/li&gt;&lt;li&gt;listen (3.0.8, 3.0.6)&lt;/li&gt;&lt;li&gt;mercenary (0.3.6)&lt;/li&gt;&lt;li&gt;mini_portile2 (2.1.0)&lt;/li&gt;&lt;li&gt;minitest (5.9.0, default: 4.7.5)&lt;/li&gt;&lt;li&gt;multipart-post (2.0.0)&lt;/li&gt;&lt;li&gt;net-dns (0.8.0)&lt;/li&gt;&lt;li&gt;nokogiri (1.6.8)&lt;/li&gt;&lt;li&gt;octokit (4.3.0)&lt;/li&gt;&lt;li&gt;pkg-config (1.1.7)&lt;/li&gt;&lt;li&gt;posix-spawn (0.3.11)&lt;/li&gt;&lt;li&gt;psych (default: 2.0.5)&lt;/li&gt;&lt;li&gt;public_suffix (1.5.3)&lt;/li&gt;&lt;li&gt;pygments.rb (0.6.3)&lt;/li&gt;&lt;li&gt;rake (default: 10.1.0)&lt;/li&gt;&lt;li&gt;rb-fsevent (0.9.7)&lt;/li&gt;&lt;li&gt;rb-inotify (0.9.7)&lt;/li&gt;&lt;li&gt;rdiscount (2.2.0.1)&lt;/li&gt;&lt;li&gt;rdoc (default: 4.1.0)&lt;/li&gt;&lt;li&gt;redcarpet (3.3.4)&lt;/li&gt;&lt;li&gt;RedCloth (4.3.2)&lt;/li&gt;&lt;li&gt;rouge (1.11.0, 1.10.1)&lt;/li&gt;&lt;li&gt;rubygems-update (2.6.4)&lt;/li&gt;&lt;li&gt;safe_yaml (1.0.4)&lt;/li&gt;&lt;li&gt;sass (3.4.22)&lt;/li&gt;&lt;li&gt;sawyer (0.7.0)&lt;/li&gt;&lt;li&gt;terminal-table (1.6.0)&lt;/li&gt;&lt;li&gt;test-unit (default: 2.1.9.0)&lt;/li&gt;&lt;li&gt;thread_safe (0.3.5)&lt;/li&gt;&lt;li&gt;typhoeus (0.8.0)&lt;/li&gt;&lt;li&gt;tzinfo (1.2.2)&lt;/li&gt;&lt;li&gt;yajl-ruby (1.2.1)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;We also support the following software that are not gems, but forestry will use when building Jekyll sites.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;pandoc (1.17.1)&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

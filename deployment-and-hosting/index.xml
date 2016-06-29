@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deployment-and-hosting on The Forestry Field Guide</title>
+    <link>https://forestry.io/docs/deployment-and-hosting/</link>
+    <description>Recent content in Deployment-and-hosting on The Forestry Field Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jun 2016 17:35:00 +0000</lastBuildDate>
+    <atom:link href="https://forestry.io/docs/deployment-and-hosting/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hosting with Github pages</title>
+      <link>https://forestry.io/docs/deployment-and-hosting/hosting-with-github-pages/</link>
+      <pubDate>Thu, 09 Jun 2016 17:35:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/deployment-and-hosting/hosting-with-github-pages/</guid>
+      <description>&lt;p&gt;To setup hosting with Github Pages you first need to created a branch on in your repository called &amp;ldquo;github-paged&amp;rdquo;. You can do this very easily from the github interface. Simlply click the dropdown labled branch, type &amp;ldquo;github-pages&amp;rdquo; in the text field, and click enter. This will create the branch for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 2.49.31 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now back over Forestry, after completing the initilal setup of importing you site you will be presented with a dialog to setup the hosting. To host with github-pages choose &amp;ldquo;github-pages&amp;rdquo; from the drop down, the select the repository and branch (will almost always be &amp;ldquo;github-pages&amp;rdquo;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 2.57.12 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 2.59.08 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now whenever you publish a change, forestry will automatically update your live site, so your users will always see the latest version.&lt;/p&gt;
+
+&lt;p&gt;Since you&amp;rsquo;re already using git for hosting, why not also host your code there? If you&amp;rsquo;re hosting with github-pages, also using github for your version control is a great workflow. We have a doc you can checkout &lt;a href=&#34;../../setting-up-a-site/importing-a-site-from-github/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hosting on Amazon S3</title>
+      <link>https://forestry.io/docs/deployment-and-hosting/hosting-on-amazon-s3/</link>
+      <pubDate>Thu, 09 Jun 2016 17:33:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/deployment-and-hosting/hosting-on-amazon-s3/</guid>
+      <description>
+
+&lt;p&gt;If you wish to host your website with Amazon S3, select AWS S3 from the list of hosting options. You will need to enter your Bucket name, Access Key ID, and Secret Access Key.&lt;/p&gt;
+
+&lt;h2 id=&#34;creating-a-bucket&#34;&gt;Creating a Bucket&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Log in to your Amazon AWS account and select S3 from the Console Home page.&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Create Bucket&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 3.00.27 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Give your bucket a name, select a region, and click &amp;ldquo;Create&amp;rdquo;. &lt;strong&gt;Note&lt;/strong&gt;: For a website to work with S3, your bucket must be named &lt;em&gt;yourwebsite.com&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;setting-bucket-permissions&#34;&gt;Setting bucket permissions&lt;/h2&gt;
+
+&lt;p&gt;You will need to set the proper permissions for your bucket to work as a website.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Select your bucket from the list of buckets.&lt;/li&gt;
+&lt;li&gt;Choose &amp;ldquo;Properties&amp;rdquo; from the tabs in the top right corner (if it is not already selected)&lt;/li&gt;
+&lt;li&gt;Choose the &amp;ldquo;Static Website Hosting&amp;rdquo; section&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Enable website hosting&amp;rdquo; and set your Index Document and Error Document&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 3.10.40 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Click &amp;ldquo;Save&amp;rdquo; to save the changes&lt;/li&gt;
+&lt;li&gt;Choose the &amp;ldquo;Permissions&amp;rdquo; section&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Add bucket policy&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 3.10.55 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Set your bucket policy and save your changes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+  &amp;quot;Version&amp;quot;:&amp;quot;2012-10-17&amp;quot;,
+  &amp;quot;Statement&amp;quot;:[{
+	&amp;quot;Sid&amp;quot;:&amp;quot;PublicReadGetObject&amp;quot;,
+        &amp;quot;Effect&amp;quot;:&amp;quot;Allow&amp;quot;,
+	  &amp;quot;Principal&amp;quot;: &amp;quot;*&amp;quot;,
+      &amp;quot;Action&amp;quot;:[&amp;quot;s3:GetObject&amp;quot;],
+      &amp;quot;Resource&amp;quot;:[&amp;quot;arn:aws:s3:::your-bucket/*&amp;quot;
+      ]
+    }
+  ]
+} 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;creating-an-iam-user&#34;&gt;Creating an IAM User&lt;/h2&gt;
+
+&lt;p&gt;Amazon AWS uses IAM users to control access to different services. You should setup an IAM user for Forestry that only has access to your website bucket.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Click &amp;ldquo;Identity &amp;amp; Access Management&amp;rdquo; from the Console Home page&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Users&amp;rdquo; and then &amp;ldquo;Create New Users&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Give your new user a name and ensure that &amp;ldquo;Generate an access key for each user&amp;rdquo; is checked&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Show User Security Credentials&amp;rdquo; and copy the &lt;em&gt;Access Key ID&lt;/em&gt; and &lt;em&gt;Secret Access Key&lt;/em&gt;. Then click &amp;ldquo;Close&amp;rdquo; and &amp;ldquo;Close&amp;rdquo; again.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 4.05.16 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You will be brought to a list of your users. Click on your newly created user.&lt;/li&gt;
+&lt;li&gt;Click on the &amp;ldquo;Perimssions&amp;rdquo; tab and then on &amp;ldquo;Inline Policies&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 4.09.48 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Click on &amp;ldquo;Click here&amp;rdquo; under &amp;ldquo;Inline Policies&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Choose &amp;ldquo;Custom Policy&amp;rdquo; and the click &amp;ldquo;Select&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Give the policy a name (ie. forestry-access) and add the following to the policy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+    &amp;quot;Version&amp;quot;: &amp;quot;2012-10-17&amp;quot;,
+    &amp;quot;Statement&amp;quot;: [
+        {
+            &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
+            &amp;quot;Action&amp;quot;: [
+                &amp;quot;s3:ListAllMyBuckets&amp;quot;
+            ],
+            &amp;quot;Resource&amp;quot;: &amp;quot;arn:aws:s3:::*&amp;quot;
+        },
+        {
+            &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
+            &amp;quot;Action&amp;quot;: [
+                &amp;quot;s3:ListBucket&amp;quot;,
+                &amp;quot;s3:GetBucketLocation&amp;quot;
+            ],
+            &amp;quot;Resource&amp;quot;: &amp;quot;arn:aws:s3:::example.com&amp;quot;
+        },
+        {
+            &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
+            &amp;quot;Action&amp;quot;: [
+                &amp;quot;s3:PutObject&amp;quot;,
+                &amp;quot;s3:GetObject&amp;quot;,
+                &amp;quot;s3:DeleteObject&amp;quot;
+            ],
+            &amp;quot;Resource&amp;quot;: &amp;quot;arn:aws:s3:::example.com/*&amp;quot;
+        }
+    ]
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Click &amp;ldquo;Apply Policy&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://forestry.io/docs/deployment-and-hosting/test/</link>
+      <pubDate>Thu, 09 Jun 2016 13:43:49 -0300</pubDate>
+      
+      <guid>https://forestry.io/docs/deployment-and-hosting/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S3 Permissions for Website</title>
+      <link>https://forestry.io/docs/deployment-and-hosting/s3-permissions-for-website/</link>
+      <pubDate>Tue, 24 May 2016 13:43:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/deployment-and-hosting/s3-permissions-for-website/</guid>
+      <description>&lt;p&gt;More info here: &lt;a href=&#34;http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteAccessPermissionsReqd.html&#34;&gt;http://docs.aws.amazon.com/AmazonS3&amp;hellip;&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  &amp;quot;Version&amp;quot;:&amp;quot;2012-10-17&amp;quot;,
+  &amp;quot;Statement&amp;quot;:[{
+	&amp;quot;Sid&amp;quot;:&amp;quot;PublicReadGetObject&amp;quot;,
+        &amp;quot;Effect&amp;quot;:&amp;quot;Allow&amp;quot;,
+	  &amp;quot;Principal&amp;quot;: &amp;quot;*&amp;quot;,
+      &amp;quot;Action&amp;quot;:[&amp;quot;s3:GetObject&amp;quot;],
+      &amp;quot;Resource&amp;quot;:[&amp;quot;arn:aws:s3:::example-bucket/*&amp;quot;
+      ]
+    }
+  ]
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Be sure to replace &lt;strong&gt;example-bucket&lt;/strong&gt; with your bucket name :)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

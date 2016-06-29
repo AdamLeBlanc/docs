@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Forestry Field Guide</title>
+    <link>https://forestry.io/docs/</link>
+    <description>Recent content on The Forestry Field Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jun 2016 17:13:00 +0000</lastBuildDate>
+    <atom:link href="https://forestry.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Why do I have to allow access to my GitHub organization?</title>
+      <link>https://forestry.io/docs/faq/github-organization-access/</link>
+      <pubDate>Tue, 14 Jun 2016 17:13:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/faq/github-organization-access/</guid>
+      <description>&lt;p&gt;Unfortunately this is the only way GitHub handles permissions currently.  If  your organization has enabled 3rd party applications, you&amp;rsquo;ll see that message when authenticating.  If you&amp;rsquo;re the owner of the GitHub organization you can disable 3rd-party applications.  If you don&amp;rsquo;t want some of your repos to be accessible by 3rd-party applications (such as Slack, Forestry, etc), you would have to create a second GitHub organization where you don&amp;rsquo;t enable 3rd-party access and move your repo to that account.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Github without hosting</title>
+      <link>https://forestry.io/docs/setting-up-a-site/setting-up-a-site-without-hosting/</link>
+      <pubDate>Fri, 10 Jun 2016 15:15:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/setting-up-a-site/setting-up-a-site-without-hosting/</guid>
+      <description>&lt;p&gt;In order to set Forestry up without hosting, simply follow the normal setup process, but when selecting the host, don&amp;rsquo;t select one.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-10 at 12.18.35 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now forestry will commit changes back to your git provider, but will not build and deplpoy the site. This will allow you to maintain an exisiting pipeline if you so choose.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Adding Team Members</title>
+      <link>https://forestry.io/docs/managing-your-team/adding-team-members/</link>
+      <pubDate>Thu, 09 Jun 2016 19:58:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/managing-your-team/adding-team-members/</guid>
+      <description>&lt;p&gt;When you add new members to your site, they will be given the ability to edit content through forestry. You can control which users have access to which sites. After you add a user to a site, Forestry will send them an email to let them know they now have access. If they don&amp;rsquo;t have an account with Forestry yet, Forestry will send them an email with instructions on how to setup their account. Once they create their account, they will have access to your site.&lt;/p&gt;
+
+&lt;p&gt;To add a user first click the three dot button next to your site in the dashboard, then &amp;ldquo;manage team&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;You will be presented with a dialog, click the &amp;ldquo;Add people&amp;rdquo; button. This will populate another field for you to add someone in. You can now fill in the email of the person you want to invite (name is optional). Now click on &amp;ldquo;Save changes&amp;rdquo;, and your team will be saved.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 4.46.36 PM.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 5.03.26 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Support and help</title>
+      <link>https://forestry.io/docs/getting-started/support-and-help/</link>
+      <pubDate>Thu, 09 Jun 2016 19:49:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/getting-started/support-and-help/</guid>
+      <description>&lt;p&gt;Need help? Email us at &lt;a href=&#34;mailto:support@forestry.io&#34;&gt;support@forestry.io&lt;/a&gt; or chat with us through intercom (click the chat icon when you&amp;rsquo;re logged in).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/forestry-support-3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Forestry Features</title>
+      <link>https://forestry.io/docs/getting-started/forestry-features/</link>
+      <pubDate>Thu, 09 Jun 2016 18:08:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/getting-started/forestry-features/</guid>
+      <description>
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;a-gui-for-non-devs&#34;&gt;A GUI for non-devs&lt;/h2&gt;
+
+&lt;p&gt;Saving changes from your Forestry CMS will:  * Commit changes to a repo (optional) * Compile &amp;amp; deploy to your host * Forestry.io CMS Git Support&lt;/p&gt;
+
+&lt;h2 id=&#34;continue-to-use-git&#34;&gt;Continue to use Git&lt;/h2&gt;
+
+&lt;p&gt;If you use GitHub or Bitbucket, Forestry.io will watch your repo for changes and pull them in. So you can push code, while your editors are using the CMS.&lt;/p&gt;
+
+&lt;h2 id=&#34;deploy-anywhere&#34;&gt;Deploy anywhere&lt;/h2&gt;
+
+&lt;p&gt;Forestry is host-agnostic. Everytime an update is made via your CMS, Forestry will compile your site and deploy it to your host (S3, GitHub Pages, FTP, etc).&lt;/p&gt;
+
+&lt;h2 id=&#34;markdown-html-and-wysiwyg&#34;&gt;Markdown, HTML and WYSIWYG&lt;/h2&gt;
+
+&lt;p&gt;Editors can switch between Markdown, HTML and WYSIWYG editing&lt;/p&gt;
+
+&lt;h2 id=&#34;zero-setup-time&#34;&gt;Zero setup time&lt;/h2&gt;
+
+&lt;p&gt;No configuration needed. Just upload your site and Forestry will automatically build your CMS in seconds.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-hosted-cms&#34;&gt;A hosted CMS&lt;/h2&gt;
+
+&lt;p&gt;Forestry is a hosted CMS. No need to install or maintain any bloated software.&lt;/p&gt;
+
+&lt;h2 id=&#34;don-t-lock-to-a-cms&#34;&gt;Don&amp;rsquo;t lock to a CMS&lt;/h2&gt;
+
+&lt;p&gt;No configuration and you&amp;rsquo;re not locked into hosting. Forestry is a GUI that doesn&amp;rsquo;t interfere with your site.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hosting with Github pages</title>
+      <link>https://forestry.io/docs/deployment-and-hosting/hosting-with-github-pages/</link>
+      <pubDate>Thu, 09 Jun 2016 17:35:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/deployment-and-hosting/hosting-with-github-pages/</guid>
+      <description>&lt;p&gt;To setup hosting with Github Pages you first need to created a branch on in your repository called &amp;ldquo;github-paged&amp;rdquo;. You can do this very easily from the github interface. Simlply click the dropdown labled branch, type &amp;ldquo;github-pages&amp;rdquo; in the text field, and click enter. This will create the branch for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 2.49.31 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now back over Forestry, after completing the initilal setup of importing you site you will be presented with a dialog to setup the hosting. To host with github-pages choose &amp;ldquo;github-pages&amp;rdquo; from the drop down, the select the repository and branch (will almost always be &amp;ldquo;github-pages&amp;rdquo;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 2.57.12 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 2.59.08 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now whenever you publish a change, forestry will automatically update your live site, so your users will always see the latest version.&lt;/p&gt;
+
+&lt;p&gt;Since you&amp;rsquo;re already using git for hosting, why not also host your code there? If you&amp;rsquo;re hosting with github-pages, also using github for your version control is a great workflow. We have a doc you can checkout &lt;a href=&#34;../../setting-up-a-site/importing-a-site-from-github/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hosting on Amazon S3</title>
+      <link>https://forestry.io/docs/deployment-and-hosting/hosting-on-amazon-s3/</link>
+      <pubDate>Thu, 09 Jun 2016 17:33:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/deployment-and-hosting/hosting-on-amazon-s3/</guid>
+      <description>
+
+&lt;p&gt;If you wish to host your website with Amazon S3, select AWS S3 from the list of hosting options. You will need to enter your Bucket name, Access Key ID, and Secret Access Key.&lt;/p&gt;
+
+&lt;h2 id=&#34;creating-a-bucket&#34;&gt;Creating a Bucket&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Log in to your Amazon AWS account and select S3 from the Console Home page.&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Create Bucket&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 3.00.27 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Give your bucket a name, select a region, and click &amp;ldquo;Create&amp;rdquo;. &lt;strong&gt;Note&lt;/strong&gt;: For a website to work with S3, your bucket must be named &lt;em&gt;yourwebsite.com&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;setting-bucket-permissions&#34;&gt;Setting bucket permissions&lt;/h2&gt;
+
+&lt;p&gt;You will need to set the proper permissions for your bucket to work as a website.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Select your bucket from the list of buckets.&lt;/li&gt;
+&lt;li&gt;Choose &amp;ldquo;Properties&amp;rdquo; from the tabs in the top right corner (if it is not already selected)&lt;/li&gt;
+&lt;li&gt;Choose the &amp;ldquo;Static Website Hosting&amp;rdquo; section&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Enable website hosting&amp;rdquo; and set your Index Document and Error Document&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 3.10.40 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Click &amp;ldquo;Save&amp;rdquo; to save the changes&lt;/li&gt;
+&lt;li&gt;Choose the &amp;ldquo;Permissions&amp;rdquo; section&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Add bucket policy&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 3.10.55 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Set your bucket policy and save your changes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+  &amp;quot;Version&amp;quot;:&amp;quot;2012-10-17&amp;quot;,
+  &amp;quot;Statement&amp;quot;:[{
+	&amp;quot;Sid&amp;quot;:&amp;quot;PublicReadGetObject&amp;quot;,
+        &amp;quot;Effect&amp;quot;:&amp;quot;Allow&amp;quot;,
+	  &amp;quot;Principal&amp;quot;: &amp;quot;*&amp;quot;,
+      &amp;quot;Action&amp;quot;:[&amp;quot;s3:GetObject&amp;quot;],
+      &amp;quot;Resource&amp;quot;:[&amp;quot;arn:aws:s3:::your-bucket/*&amp;quot;
+      ]
+    }
+  ]
+} 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;creating-an-iam-user&#34;&gt;Creating an IAM User&lt;/h2&gt;
+
+&lt;p&gt;Amazon AWS uses IAM users to control access to different services. You should setup an IAM user for Forestry that only has access to your website bucket.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Click &amp;ldquo;Identity &amp;amp; Access Management&amp;rdquo; from the Console Home page&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Users&amp;rdquo; and then &amp;ldquo;Create New Users&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Give your new user a name and ensure that &amp;ldquo;Generate an access key for each user&amp;rdquo; is checked&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Show User Security Credentials&amp;rdquo; and copy the &lt;em&gt;Access Key ID&lt;/em&gt; and &lt;em&gt;Secret Access Key&lt;/em&gt;. Then click &amp;ldquo;Close&amp;rdquo; and &amp;ldquo;Close&amp;rdquo; again.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 4.05.16 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You will be brought to a list of your users. Click on your newly created user.&lt;/li&gt;
+&lt;li&gt;Click on the &amp;ldquo;Perimssions&amp;rdquo; tab and then on &amp;ldquo;Inline Policies&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 4.09.48 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Click on &amp;ldquo;Click here&amp;rdquo; under &amp;ldquo;Inline Policies&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Choose &amp;ldquo;Custom Policy&amp;rdquo; and the click &amp;ldquo;Select&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Give the policy a name (ie. forestry-access) and add the following to the policy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+    &amp;quot;Version&amp;quot;: &amp;quot;2012-10-17&amp;quot;,
+    &amp;quot;Statement&amp;quot;: [
+        {
+            &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
+            &amp;quot;Action&amp;quot;: [
+                &amp;quot;s3:ListAllMyBuckets&amp;quot;
+            ],
+            &amp;quot;Resource&amp;quot;: &amp;quot;arn:aws:s3:::*&amp;quot;
+        },
+        {
+            &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
+            &amp;quot;Action&amp;quot;: [
+                &amp;quot;s3:ListBucket&amp;quot;,
+                &amp;quot;s3:GetBucketLocation&amp;quot;
+            ],
+            &amp;quot;Resource&amp;quot;: &amp;quot;arn:aws:s3:::example.com&amp;quot;
+        },
+        {
+            &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
+            &amp;quot;Action&amp;quot;: [
+                &amp;quot;s3:PutObject&amp;quot;,
+                &amp;quot;s3:GetObject&amp;quot;,
+                &amp;quot;s3:DeleteObject&amp;quot;
+            ],
+            &amp;quot;Resource&amp;quot;: &amp;quot;arn:aws:s3:::example.com/*&amp;quot;
+        }
+    ]
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Click &amp;ldquo;Apply Policy&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Importing a site from Github</title>
+      <link>https://forestry.io/docs/setting-up-a-site/importing-a-site-from-github/</link>
+      <pubDate>Thu, 09 Jun 2016 17:21:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/setting-up-a-site/importing-a-site-from-github/</guid>
+      <description>
+
+&lt;p&gt;If you are new to git and github you can get started &lt;a href=&#34;https://help.github.com/articles/set-up-git/&#34;&gt;here&lt;/a&gt;, and follow an interactive tutorial &lt;a href=&#34;https://try.github.io/levels/1/challenges/1&#34;&gt;here&lt;/a&gt;. It is very easy to learn the basics, and over time you will learn more of the advanced features that make git a powerful tool.&lt;/p&gt;
+
+&lt;p&gt;To import a site from github, you jut need to click on the github button when you&amp;rsquo;re setting up a new site, and select the repository and branch you want to use to import the site from. You&amp;rsquo;ll also be given a dialog asking you to signin to github and give foerstry premision to read and write to your repositores, as well as the ability add webhooks. We need the read write premision to pull sites from Github, as well as push any changes back to Github. The webhooks are needed incase you decide to make changes to your site locally (such as changing the theme) and then push to Github. Forestry will use the webhook to pull in any changes pushed to github to keep everything in sync.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 1.40.48 PM.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 2.16.01 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;github-organizations&#34;&gt;GitHub Organizations&lt;/h3&gt;
+
+&lt;p&gt;If you&amp;rsquo;re trying to connect to a repository from your GitHub organization, ensure that you have enabled &lt;a href=&#34;https://help.github.com/articles/enabling-third-party-application-restrictions-for-your-organization/&#34;&gt;3rd-party access&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Forestry also alows you to host your sites for free on Github, with &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github pages&lt;/a&gt;. This is a great workflow for those who are already using Github, and best of all it&amp;rsquo;s free! We have a doc &lt;a href=&#34;../hosting-with-github-pages/&#34;&gt;here&lt;/a&gt; you can use to get started.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Setting up a Host</title>
+      <link>https://forestry.io/docs/doc/setting-up-a-host/</link>
+      <pubDate>Thu, 09 Jun 2016 17:20:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/doc/setting-up-a-host/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 1.42.13 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can add or edit your hosting information by selecting the &amp;hellip; button next to &amp;ldquo;Edit Content&amp;rdquo; and clicking &amp;ldquo;Hosting Info&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 2.05.18 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can choose between:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GitHub Pages&lt;/li&gt;
+&lt;li&gt;Bitbucket&lt;/li&gt;
+&lt;li&gt;FTP/FTPS/SFTP&lt;/li&gt;
+&lt;li&gt;AWS S3&lt;/li&gt;
+&lt;li&gt;Or to just commit back to your source repository&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To choose &amp;ldquo;Commit to source repo only&amp;rdquo; you will have to have imported your project from GitHub or Bitbucket. If you choose &amp;ldquo;Commit to source repo only&amp;rdquo; we won&amp;rsquo;t publish your site to a host. Instead we will only commit the source code of your site back to the repository you imported from.&lt;/p&gt;
+
+&lt;p&gt;For more information on each of the hosting options please visit:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;list of links to respsecitve hosting pages&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>cats</title>
+      <link>https://forestry.io/docs/setting-up-a-site/cats/</link>
+      <pubDate>Thu, 09 Jun 2016 13:59:41 -0300</pubDate>
+      
+      <guid>https://forestry.io/docs/setting-up-a-site/cats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://forestry.io/docs/other/test/</link>
+      <pubDate>Thu, 09 Jun 2016 13:47:47 -0300</pubDate>
+      
+      <guid>https://forestry.io/docs/other/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://forestry.io/docs/editing-content/test/</link>
+      <pubDate>Thu, 09 Jun 2016 13:45:52 -0300</pubDate>
+      
+      <guid>https://forestry.io/docs/editing-content/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://forestry.io/docs/manage-a-team/test/</link>
+      <pubDate>Thu, 09 Jun 2016 13:45:52 -0300</pubDate>
+      
+      <guid>https://forestry.io/docs/manage-a-team/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://forestry.io/docs/deployment-and-hosting/test/</link>
+      <pubDate>Thu, 09 Jun 2016 13:43:49 -0300</pubDate>
+      
+      <guid>https://forestry.io/docs/deployment-and-hosting/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to write a Gemfile</title>
+      <link>https://forestry.io/docs/getting-started/how-to-write-a-gemfile/</link>
+      <pubDate>Thu, 09 Jun 2016 13:40:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/getting-started/how-to-write-a-gemfile/</guid>
+      <description>&lt;p&gt;Here is an example of a basic Gemfile.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;
+source &#39;https://rubygems.org&#39;
+ruby &#34;2.2.4&#34;
+gem &#39;jekyll&#39;, &#39;1.5.1 &#39;
+gem &#39;jekyll-coffeescript&#39;
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;Every gemfile must have a source, in this case &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;source &#39;https://rubygems.org&#39;&lt;/code&gt;&lt;/pre&gt; . This is where bundle (the program that installs all the gems in your Gemfile) will download the gems. Generally &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;&#39;https://rubygems.org&#39;&lt;/code&gt;&lt;/pre&gt; is the only source you will need, since it is the official source for ruby gems, however Forestry will support 3rd party sources as well.
+&lt;p&gt;
+    You can specify the version of ruby to use for your build as well. To do this simply add &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;ruby &#34;2.2.4&#34;&lt;/code&gt;&lt;/pre&gt; to your Gemfile and change &#34;2.2.4&#34; to the version of Ruby you want to use. Forestry will build sites for ruby version 2.1.x and above, where x is the most recent bug fix for that version. You can find a complete list of ruby versions &lt;a href=&#34;https://www.ruby-lang.org/en/downloads/&#34;&gt;here&lt;/a&gt;. Forestry will support the versions listed under &#34;Stable releases&#34;. If you don&#39;t specify a ruby version in your Gemfile, forestry will use the same minor version (the first two numbers in the version) as GitHub Pages, but we will use the latestest patch (the last number in the version). 
+
+
+&lt;p&gt;
+    After this, you can start listing your gems. Optionally you can specify the version of the gem as the second argument to &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;gem&lt;/code&gt;&lt;/pre&gt;. Any dpendencies the gems have listed will be installed as well.
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Setting-up-a-site on The Forestry Field Guide</title>
+    <link>https://forestry.io/docs/setting-up-a-site/</link>
+    <description>Recent content in Setting-up-a-site on The Forestry Field Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jun 2016 15:15:00 +0000</lastBuildDate>
+    <atom:link href="https://forestry.io/docs/setting-up-a-site/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Using Github without hosting</title>
+      <link>https://forestry.io/docs/setting-up-a-site/setting-up-a-site-without-hosting/</link>
+      <pubDate>Fri, 10 Jun 2016 15:15:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/setting-up-a-site/setting-up-a-site-without-hosting/</guid>
+      <description>&lt;p&gt;In order to set Forestry up without hosting, simply follow the normal setup process, but when selecting the host, don&amp;rsquo;t select one.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-10 at 12.18.35 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now forestry will commit changes back to your git provider, but will not build and deplpoy the site. This will allow you to maintain an exisiting pipeline if you so choose.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Importing a site from Github</title>
+      <link>https://forestry.io/docs/setting-up-a-site/importing-a-site-from-github/</link>
+      <pubDate>Thu, 09 Jun 2016 17:21:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/setting-up-a-site/importing-a-site-from-github/</guid>
+      <description>
+
+&lt;p&gt;If you are new to git and github you can get started &lt;a href=&#34;https://help.github.com/articles/set-up-git/&#34;&gt;here&lt;/a&gt;, and follow an interactive tutorial &lt;a href=&#34;https://try.github.io/levels/1/challenges/1&#34;&gt;here&lt;/a&gt;. It is very easy to learn the basics, and over time you will learn more of the advanced features that make git a powerful tool.&lt;/p&gt;
+
+&lt;p&gt;To import a site from github, you jut need to click on the github button when you&amp;rsquo;re setting up a new site, and select the repository and branch you want to use to import the site from. You&amp;rsquo;ll also be given a dialog asking you to signin to github and give foerstry premision to read and write to your repositores, as well as the ability add webhooks. We need the read write premision to pull sites from Github, as well as push any changes back to Github. The webhooks are needed incase you decide to make changes to your site locally (such as changing the theme) and then push to Github. Forestry will use the webhook to pull in any changes pushed to github to keep everything in sync.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 1.40.48 PM.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 2.16.01 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;github-organizations&#34;&gt;GitHub Organizations&lt;/h3&gt;
+
+&lt;p&gt;If you&amp;rsquo;re trying to connect to a repository from your GitHub organization, ensure that you have enabled &lt;a href=&#34;https://help.github.com/articles/enabling-third-party-application-restrictions-for-your-organization/&#34;&gt;3rd-party access&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Forestry also alows you to host your sites for free on Github, with &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github pages&lt;/a&gt;. This is a great workflow for those who are already using Github, and best of all it&amp;rsquo;s free! We have a doc &lt;a href=&#34;../hosting-with-github-pages/&#34;&gt;here&lt;/a&gt; you can use to get started.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>cats</title>
+      <link>https://forestry.io/docs/setting-up-a-site/cats/</link>
+      <pubDate>Thu, 09 Jun 2016 13:59:41 -0300</pubDate>
+      
+      <guid>https://forestry.io/docs/setting-up-a-site/cats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Default Fields For New Pages and Posts</title>
+      <link>https://forestry.io/docs/setting-up-a-site/Jekyll-Defaults/</link>
+      <pubDate>Mon, 25 Apr 2016 14:51:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/setting-up-a-site/Jekyll-Defaults/</guid>
+      <description>
+
+&lt;p&gt;Forestry will make UI fields out of the front matter of your posts, pages and collections/sections.&lt;/p&gt;
+
+&lt;p&gt;You can set up  your site so Forestry will use default fields for new pages or posts. In the following example, we want all new pages to include a &lt;em&gt;Banner&lt;/em&gt; image, a &lt;em&gt;Categories&lt;/em&gt; field (array), and a &lt;em&gt;Description&lt;/em&gt; field.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/forestry-default-fields.png&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;jekyll-default-fields&#34;&gt;Jekyll Default Fields&lt;/h2&gt;
+
+&lt;p&gt;If you want these fields to show up in front matter (and forestry UI) for new posts, you can define them in your &lt;code&gt;_config.yml&lt;/code&gt; file (see the &lt;a href=&#34;https://jekyllrb.com/docs/configuration/#front-matter-defaults&#34;&gt;Jekyll docs&lt;/a&gt; for more info).&lt;/p&gt;
+
+&lt;p&gt;In the example below, all new posts (no matter what the path is) will get these fields.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yml&#34;&gt;defaults:
+  - scope:
+        path: &#34;&#34;
+        type: posts
+    values:
+        thumbnail: &#34;&#34;
+        categories: []
+        description: &#34;&#34;
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h2 id=&#34;hugo&#34;&gt;Hugo&lt;/h2&gt;
+
+&lt;p&gt;With hugo, you&amp;rsquo;ll need to add an  &lt;a href=&#34;https://gohugo.io/content/archetypes/&#34;&gt;archetype&lt;/a&gt; file with these fields for each &lt;a href=&#34;https://gohugo.io/content/sections/&#34;&gt;section&lt;/a&gt;.  The following fields in /archetypes/default.md will result in the above UI.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
+title = &#34;&#34;
+description = &#34;&#34;
+banner = &#34;&#34;
+categories = []
++++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;highlighted-block&#34;&gt;
+&lt;h3&gt;Image upload fields&lt;/h3&gt;
+Be sure to include at least one page or post that uses an image file as a value for the thumbnail front matter.  This way, when Forestry parses your site, it will know to treat that field as an image upload field. 
+* &lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

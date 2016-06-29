@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Doc on The Forestry Field Guide</title>
+    <link>https://forestry.io/docs/doc/</link>
+    <description>Recent content in Doc on The Forestry Field Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jun 2016 17:20:00 +0000</lastBuildDate>
+    <atom:link href="https://forestry.io/docs/doc/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Setting up a Host</title>
+      <link>https://forestry.io/docs/doc/setting-up-a-host/</link>
+      <pubDate>Thu, 09 Jun 2016 17:20:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/doc/setting-up-a-host/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 1.42.13 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can add or edit your hosting information by selecting the &amp;hellip; button next to &amp;ldquo;Edit Content&amp;rdquo; and clicking &amp;ldquo;Hosting Info&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 2.05.18 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can choose between:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GitHub Pages&lt;/li&gt;
+&lt;li&gt;Bitbucket&lt;/li&gt;
+&lt;li&gt;FTP/FTPS/SFTP&lt;/li&gt;
+&lt;li&gt;AWS S3&lt;/li&gt;
+&lt;li&gt;Or to just commit back to your source repository&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To choose &amp;ldquo;Commit to source repo only&amp;rdquo; you will have to have imported your project from GitHub or Bitbucket. If you choose &amp;ldquo;Commit to source repo only&amp;rdquo; we won&amp;rsquo;t publish your site to a host. Instead we will only commit the source code of your site back to the repository you imported from.&lt;/p&gt;
+
+&lt;p&gt;For more information on each of the hosting options please visit:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;list of links to respsecitve hosting pages&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Re-uploading a Project</title>
+      <link>https://forestry.io/docs/doc/reuploading/</link>
+      <pubDate>Wed, 11 May 2016 12:07:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/doc/reuploading/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re not using GitHub with forestry, and you need to re-upload your project, you can upload your project files only, or you can upload content and project files.&lt;/p&gt;
+
+&lt;p&gt;Choosing project files only will overwrite things like:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Config file&lt;/li&gt;
+&lt;li&gt;Layouts files&lt;/li&gt;
+&lt;li&gt;Static Assets&lt;/li&gt;
+&lt;li&gt;Etc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you choose to update project files AND content files, you will also overwrite:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Content files, such as posts and pages&lt;/li&gt;
+&lt;li&gt;Data files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Finally, if you want to update your local copy of your site, see &lt;a href=&#34;https://forestry.io/docs/downloading-a-backup-of-your-site/&#34;&gt;downloading a backup&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-05-11 at 9.05.16 AM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generate AWS Keys</title>
+      <link>https://forestry.io/docs/doc/aws-generate-keys/</link>
+      <pubDate>Thu, 28 Apr 2016 22:47:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/doc/aws-generate-keys/</guid>
+      <description>&lt;p&gt;You&#39;ll need your region, bucket name, AWS&amp;nbsp;key and Secret in order to&amp;nbsp;deploy your site to S3.&amp;nbsp;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://forestry.io/docs/docs/images/AWS-setup.png&#34;&gt;&lt;/figure&gt;
+
+&lt;h2&gt;Setup Policy&lt;/h2&gt;
+
+
+&lt;ul&gt;&lt;li&gt;Log into your &lt;a href=&#34;https://console.aws.amazon.com&#34;&gt;AWS&amp;nbsp;Console&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Go to&amp;nbsp;&lt;em&gt;Identity and Access Management&lt;/em&gt;&lt;/li&gt;&lt;li&gt;Policies &amp;gt; Get started &amp;gt; Create policies &amp;gt; policy generator&lt;/li&gt;&lt;li&gt;Add the following fields:&lt;/li&gt;&lt;/ul&gt;
+
+
+
+
+
+&lt;p&gt; AWS Service: Amazon S3&lt;br&gt;Action:&amp;nbsp;All actions selected (for simplicity)&lt;br&gt;ARN:&amp;nbsp;arn:aws:s3:::your-domain.com/*&lt;br&gt;&lt;/p&gt;
+
+
+
+
+
+&lt;ul&gt;&lt;li&gt;Click &lt;em&gt;Add Statement&lt;/em&gt;&lt;/li&gt;&lt;li&gt;&lt;em&gt;&lt;/em&gt;Now do&amp;nbsp;the same thing without the /* at the end of your domain (in the ARN&amp;nbsp;field)&lt;/li&gt;&lt;li&gt;Click &lt;em&gt;Next&lt;/em&gt; and give the policy a new name that makes sense (forestry-policy).&amp;nbsp;&amp;nbsp;Then click&amp;nbsp;&lt;em&gt;Create Policy&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+
+
+&lt;h2&gt; Attach Policy to a User&lt;/h2&gt;
+
+
+
+
+
+&lt;p&gt;Go back to the &lt;em&gt;Identity and Access Management&lt;/em&gt; dashboard and go to:&lt;/p&gt;
+
+
+
+
+
+&lt;ul&gt;&lt;li&gt;Users &amp;gt; create &amp;gt; name (name = forestry)&lt;/li&gt;&lt;li&gt;Click show credentials&amp;nbsp;(be sure to copy or download these...they only appear once)&lt;/li&gt;&lt;li&gt;Close window then click on the row of the user you just created&lt;/li&gt;&lt;li&gt;Got to &lt;em&gt;Permissions&lt;/em&gt; &amp;gt; &lt;em&gt;Attach policy&lt;/em&gt; then search for the policy you&amp;nbsp;just created&lt;/li&gt;&lt;li&gt;Save and your done!&lt;/li&gt;&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Import from a repository</title>
+      <link>https://forestry.io/docs/doc/GitHub-and-forestry-io/</link>
+      <pubDate>Mon, 25 Apr 2016 13:14:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/doc/GitHub-and-forestry-io/</guid>
+      <description>&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/editor-screenshot-1.jpg&#34; alt=&#34;&#34;&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;p&gt;If you import a git repository, Forestry will commit updates to your repository and watch it for changes. &lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;When an editor saves changes in Forestry, 2 things happen:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All changes are committed and pushed to your GitHub repo&lt;/li&gt;
+&lt;li&gt;The site is compiled and sent to your host (FTP, S3, GitHub pages, etc)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;When an dev pushes changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Forestry pulls in updates.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
