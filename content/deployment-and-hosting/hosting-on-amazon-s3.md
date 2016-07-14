@@ -1,5 +1,5 @@
 +++
-Categories = ["post", " cars", "dogs", "cats"]
+Categories = ["post", " cars", "dogs", "cats", "pizza!"]
 date = "2016-06-09T17:33:00+00:00"
 description = ""
 draft = false
