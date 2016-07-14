@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forestry on The Forestry Field Guide</title>
+    <link>https://forestry.io/docs/tags/forestry/</link>
+    <description>Recent content in Forestry on The Forestry Field Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jun 2016 17:20:00 +0000</lastBuildDate>
+    <atom:link href="https://forestry.io/docs/tags/forestry/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Setting up a Host</title>
+      <link>https://forestry.io/docs/doc/setting-up-a-host/</link>
+      <pubDate>Thu, 09 Jun 2016 17:20:00 +0000</pubDate>
+      
+      <guid>https://forestry.io/docs/doc/setting-up-a-host/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 1.42.13 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can add or edit your hosting information by selecting the &amp;hellip; button next to &amp;ldquo;Edit Content&amp;rdquo; and clicking &amp;ldquo;Hosting Info&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 2.05.18 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can choose between:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GitHub Pages&lt;/li&gt;
+&lt;li&gt;Bitbucket&lt;/li&gt;
+&lt;li&gt;FTP/FTPS/SFTP&lt;/li&gt;
+&lt;li&gt;AWS S3&lt;/li&gt;
+&lt;li&gt;Or to just commit back to your source repository&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To choose &amp;ldquo;Commit to source repo only&amp;rdquo; you will have to have imported your project from GitHub or Bitbucket. If you choose &amp;ldquo;Commit to source repo only&amp;rdquo; we won&amp;rsquo;t publish your site to a host. Instead we will only commit the source code of your site back to the repository you imported from.&lt;/p&gt;
+
+&lt;p&gt;For more information on each of the hosting options please visit:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;list of links to respsecitve hosting pages&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
