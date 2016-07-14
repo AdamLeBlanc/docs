@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Deployment-and-hosting on The Forestry Field Guide</title>
-    <link>https://forestry.io/docs/deployment-and-hosting/</link>
-    <description>Recent content in Deployment-and-hosting on The Forestry Field Guide</description>
+    <title>Cars on The Forestry Field Guide</title>
+    <link>https://forestry.io/docs/categories/cars/</link>
+    <description>Recent content in Cars on The Forestry Field Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jun 2016 17:35:00 +0000</lastBuildDate>
-    <atom:link href="https://forestry.io/docs/deployment-and-hosting/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Hosting with Github pages</title>
-      <link>https://forestry.io/docs/deployment-and-hosting/hosting-with-github-pages/</link>
-      <pubDate>Thu, 09 Jun 2016 17:35:00 +0000</pubDate>
-      
-      <guid>https://forestry.io/docs/deployment-and-hosting/hosting-with-github-pages/</guid>
-      <description>&lt;p&gt;To setup hosting with Github Pages you first need to created a branch on in your repository called &amp;ldquo;github-paged&amp;rdquo;. You can do this very easily from the github interface. Simlply click the dropdown labled branch, type &amp;ldquo;github-pages&amp;rdquo; in the text field, and click enter. This will create the branch for you.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 2.49.31 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now back over Forestry, after completing the initilal setup of importing you site you will be presented with a dialog to setup the hosting. To host with github-pages choose &amp;ldquo;github-pages&amp;rdquo; from the drop down, the select the repository and branch (will almost always be &amp;ldquo;github-pages&amp;rdquo;).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 2.57.12 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://forestry.io/docs/docs/assets/images/Screen Shot 2016-06-09 at 2.59.08 PM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now whenever you publish a change, forestry will automatically update your live site, so your users will always see the latest version.&lt;/p&gt;
-
-&lt;p&gt;Since you&amp;rsquo;re already using git for hosting, why not also host your code there? If you&amp;rsquo;re hosting with github-pages, also using github for your version control is a great workflow. We have a doc you can checkout &lt;a href=&#34;../../setting-up-a-site/importing-a-site-from-github/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
+    <lastBuildDate>Thu, 09 Jun 2016 17:33:00 +0000</lastBuildDate>
+    <atom:link href="https://forestry.io/docs/categories/cars/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hosting on Amazon S3</title>
@@ -153,41 +131,6 @@
 &lt;ul&gt;
 &lt;li&gt;Click &amp;ldquo;Apply Policy&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>https://forestry.io/docs/deployment-and-hosting/test/</link>
-      <pubDate>Thu, 09 Jun 2016 13:43:49 -0300</pubDate>
-      
-      <guid>https://forestry.io/docs/deployment-and-hosting/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>S3 Permissions for Website</title>
-      <link>https://forestry.io/docs/deployment-and-hosting/s3-permissions-for-website/</link>
-      <pubDate>Tue, 24 May 2016 13:43:00 +0000</pubDate>
-      
-      <guid>https://forestry.io/docs/deployment-and-hosting/s3-permissions-for-website/</guid>
-      <description>&lt;p&gt;More info here: &lt;a href=&#34;http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteAccessPermissionsReqd.html&#34;&gt;http://docs.aws.amazon.com/AmazonS3&amp;hellip;&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{
-  &amp;quot;Version&amp;quot;:&amp;quot;2012-10-17&amp;quot;,
-  &amp;quot;Statement&amp;quot;:[{
-	&amp;quot;Sid&amp;quot;:&amp;quot;PublicReadGetObject&amp;quot;,
-        &amp;quot;Effect&amp;quot;:&amp;quot;Allow&amp;quot;,
-	  &amp;quot;Principal&amp;quot;: &amp;quot;*&amp;quot;,
-      &amp;quot;Action&amp;quot;:[&amp;quot;s3:GetObject&amp;quot;],
-      &amp;quot;Resource&amp;quot;:[&amp;quot;arn:aws:s3:::example-bucket/*&amp;quot;
-      ]
-    }
-  ]
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Be sure to replace &lt;strong&gt;example-bucket&lt;/strong&gt; with your bucket name :)&lt;/p&gt;
 </description>
     </item>
     

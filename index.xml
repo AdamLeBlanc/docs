@@ -175,9 +175,9 @@
 &lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
   &amp;quot;Version&amp;quot;:&amp;quot;2012-10-17&amp;quot;,
   &amp;quot;Statement&amp;quot;:[{
-	&amp;quot;Sid&amp;quot;:&amp;quot;PublicReadGetObject&amp;quot;,
+    &amp;quot;Sid&amp;quot;:&amp;quot;PublicReadGetObject&amp;quot;,
         &amp;quot;Effect&amp;quot;:&amp;quot;Allow&amp;quot;,
-	  &amp;quot;Principal&amp;quot;: &amp;quot;*&amp;quot;,
+      &amp;quot;Principal&amp;quot;: &amp;quot;*&amp;quot;,
       &amp;quot;Action&amp;quot;:[&amp;quot;s3:GetObject&amp;quot;],
       &amp;quot;Resource&amp;quot;:[&amp;quot;arn:aws:s3:::your-bucket/*&amp;quot;
       ]
